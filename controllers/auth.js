@@ -10,7 +10,7 @@ const utility = require('../utility');
  */
 async function register(req, res) {
   try{
-    if(!req.body.firstname || !req.body.lastname || !req.body.email || !req.body.password) {
+    if(!req.body.firstName || !req.body.lastName || !req.body.email || !req.body.password) {
       utility.throw4xx(401);
     }
 

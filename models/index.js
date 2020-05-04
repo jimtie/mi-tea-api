@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/wayfarer-api';
+const db_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/mi-tea-api';
 
 //connecting to Database
 mongoose.connect(db_URI, {
@@ -15,7 +15,7 @@ mongoose.connect(db_URI, {
 
 module.exports = {
   User: require('./User'),
-  Tea: require('./Tea'),
+  // Tea: require('./Tea'),
   // Post: require('./Post'),
   Image: require('./Image'),
 };

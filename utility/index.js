@@ -35,7 +35,8 @@ function handleError(err, res) {
 function clientUser(user){
   let clientUser = {
     id: user._id,
-    name: user.name,
+    firstName: user.firstName,
+    lastName: user.lastName,
     city: {
       id: -1,
       name: 'not yet selected',

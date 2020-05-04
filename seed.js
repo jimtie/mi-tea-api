@@ -122,15 +122,15 @@ async function seed(){
 
     fs.appendFileSync(logFile, logMessage);
 
-    // Delete all teas and images, and seed
-    console.log("Seeding teas and images...");
-    let teaDelete = await db.Tea.deleteMany();
-    log(`Deleted ${teaDelete.n} teas.`);
-    let imageDelete = await db.Image.deleteMany();
-    log(`Deleted ${imageDelete.n} images`);
+    // // Delete all teas and images, and seed
+    // console.log("Seeding teas and images...");
+    // let teaDelete = await db.Tea.deleteMany();
+    // log(`Deleted ${teaDelete.n} teas.`);
+    // let imageDelete = await db.Image.deleteMany();
+    // log(`Deleted ${imageDelete.n} images`);
 
-    let teaCreate = await db.Tea.create(teas);
-    log(`Created ${teaCreate.length} teas.`);
+    // let teaCreate = await db.Tea.create(teas);
+    // log(`Created ${teaCreate.length} teas.`);
 
     // Delete all users, and seed
     console.log("Seeding users...");
