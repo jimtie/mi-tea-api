@@ -37,11 +37,7 @@ function clientUser(user){
     id: user._id,
     firstName: user.firstName,
     lastName: user.lastName,
-    city: {
-      id: -1,
-      name: 'not yet selected',
-    },
-    joinDate: user.createdAt,
+    email: user.email,
     posts: user.post,
   }
 

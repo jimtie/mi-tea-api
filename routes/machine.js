@@ -4,3 +4,5 @@ const ctrl = require('../controllers');
 
 // INDEX Cities
 router.get('/', ctrl.machine.index);
+
+module.exports = router;

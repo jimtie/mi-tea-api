@@ -94,7 +94,7 @@ const machines = [
     description: "Enjoy your tea for infinity flavors!",
     images: {
       icon: {
-        src: "https://www.adagio.com/images5/products_index/jasmine_yin_hao.jpg",
+        src: "https://www.williams-sonoma.com/wsimgs/rk/images/dp/wcm/202012/0069/breville-one-touch-tea-maker-c.jpg",
         credit: {
           name: "Claudia Larusso",
           url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
@@ -102,7 +102,7 @@ const machines = [
         }
       },
       header: {
-        src: "https://www.adagio.com/images5/products/jasmine_yin_hao.jpg",
+        src: "https://www.williams-sonoma.com/wsimgs/rk/images/dp/wcm/202012/0069/breville-one-touch-tea-maker-c.jpg",
         credit: {
           name: "Jared Erondu",
           url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
