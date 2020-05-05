@@ -18,4 +18,5 @@ module.exports = {
   Tea: require('./Tea'),
   // Post: require('./Post'),
   Image: require('./Image'),
+  Machine: require('./Machine'),
 };

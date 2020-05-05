@@ -86,6 +86,33 @@ const teas = [
   }
 ];
 
+const machines = [
+  {
+    name: "Mi-TEA Home Use v1",
+    type: "machine",
+    price: 159.99,
+    description: "Enjoy your tea for infinity flavors!",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/jasmine_yin_hao.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/jasmine_yin_hao.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      }
+    }
+  }
+]
+
 const users = [
   {
     firstName: "Seanny",
@@ -131,6 +158,14 @@ async function seed(){
 
     let teaCreate = await db.Tea.create(teas);
     log(`Created ${teaCreate.length} teas.`);
+
+    // Delete all machines, and seed
+    console.log("Seeding machines and images...");
+    let machineDelete = await db.Machine.deleteMany();
+    log(`Deleted ${machineDelete.n} machines.`);
+
+    let machineCreate = await db.Machine.create(machines);
+    log(`Created ${machineCreate.length} machines.`);
 
     // Delete all users, and seed
     console.log("Seeding users...");
