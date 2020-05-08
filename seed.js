@@ -168,6 +168,23 @@ const addresses = [
   },
 ];
 
+const credits = [
+  {
+    number:"1234567890123456",
+    name:"Jimmy Chen",
+    expiration:"0522",
+    cvv:"123",
+    user:"jimmychen.xin@gmail.com",
+  },
+  {
+    number:"5678901234567890",
+    name:"Jimmy Chen",
+    expiration:"0825",
+    cvv:"321",
+    user:"jimmychen.xin@gmail.com",
+  },
+]
+
 const orders = [
   {
     name: "Jasmine Green Tea",
@@ -222,6 +239,26 @@ async function seed(){
     }
     log(`Created ${addressCount} addresses.`)
     console.log("Seed complete. See seed.log for details.");
+
+
+    // Delete all credits and seed
+    console.log("Seeding credits...");
+    let creditDelete = await db.Credit.deleteMany();
+    log(`Deleted ${creditDelete.n} credits.`)
+    let creditCount = 0;
+    for (let credit of credits){
+      // Get id of the named user
+      let user = await db.User.findOne({
+        email: credit.user
+      });
+      credit.user = user._id;
+
+      let newCredit = await db.Credit.create(credit);
+      creditCount++;
+    }
+    log(`Created ${creditCount} credits.`)
+    console.log("Seed complete. See seed.log for details.");
+
   }
   catch(err){
       log(err);

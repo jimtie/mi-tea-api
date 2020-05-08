@@ -5,4 +5,5 @@ module.exports = {
     teas: require('./teas'),
     machine: require('./machine'),
     addresses: require('./addresses'),
+    credits: require('./credits'),
 };

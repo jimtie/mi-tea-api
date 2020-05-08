@@ -51,6 +51,7 @@ app.use('/api/v1/teas', routes.teas);
 app.use('/api/v1/machine', routes.machine);
 // app.use('/api/v1/order', routes.orders);
 app.use('/api/v1/addresses', routes.addresses);
+app.use('/api/v1/credits', routes.credits);
 app.use('/api/v1/users', routes.users);
 
 app.listen(process.env.PORT || 3001)
