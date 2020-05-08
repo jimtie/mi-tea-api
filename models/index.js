@@ -19,4 +19,5 @@ module.exports = {
   Address: require('./Address'),
   Image: require('./Image'),
   Machine: require('./Machine'),
+  Credit: require('./Credit'),
 };

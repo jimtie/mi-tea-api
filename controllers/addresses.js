@@ -3,7 +3,7 @@ const auth = require('./auth');
 const utility = require('../utility');
 
 /**
- * SHOW one post
+ * SHOW one Address
  * @param  {[type]} req HTTP Request
  * @param  {[type]} res HTTP Response
  * @return {[type]}     The requested post
@@ -22,7 +22,7 @@ async function show(req,res) {
 };
 
 /**
- * CREATE post
+ * CREATE Address
  * @param  {[type]} req HTTP Request
  * @param  {[type]} res HTTP Response
  * @param
@@ -47,7 +47,7 @@ async function create(req, res) {
 
 
 /**
- * UPDATE address
+ * UPDATE Address
  * @param  {[type]} req HTTP Request
  * @param  {[type]} res HTTP Response
  * @param
@@ -68,7 +68,7 @@ async function update(req,res) {
 }
 
 /**
- * DELETE post
+ * DELETE Address
  * @param  {[type]} req HTTP Request
  * @param  {[type]} res HTTP Response
  * @return {[type]}     The requested post
@@ -87,7 +87,6 @@ async function deleteAddress(req, res){
 };
 
 /**
- * INDEX posts for user
  * @param  {[type]} req HTTP Request
  * @param  {[type]} res HTTP Response
  * @param

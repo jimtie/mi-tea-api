@@ -5,4 +5,5 @@ module.exports = {
   // orders: require('./orders'),
   users: require('./users'),
   addresses: require('./addresses'),
+  credits: require('./credits'),
 }
