@@ -6,6 +6,6 @@ const ctrl = require('../controllers');
 router.get('/', ctrl.teas.index);
 
 // // SHOW Tea
-// router.get('/:id', ctrl.teas.show);
+router.get('/:id', ctrl.teas.show);
 
 module.exports = router;

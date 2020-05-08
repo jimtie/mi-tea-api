@@ -20,12 +20,6 @@ const UserSchema = mongoose.Schema({
     type: String,
     required: [true,'Please enter a password.']
   },
-  address: {
-    type: String,
-  },
-  creditCard: {
-    type:[],
-  }
   // createdAt: {
   //   type: Date,
   //   default: Date.now

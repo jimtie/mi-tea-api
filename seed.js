@@ -144,6 +144,37 @@ const users = [
   }
 ];
 
+const addresses = [
+  {
+    address1: "105 Bush St",
+    address2: "Suite 208",
+    user: "seannyphoenix@gmail.com",
+    city: "San Francisco",
+    zipcode: "94122",
+  },
+  {
+    address1: "2350 Trent dr",
+    address2: "",
+    user: "jimmychen.xin@gmail.com",
+    city: "San Bruno",
+    zipcode: "94066",
+  },
+  {
+    address1: "1551 Southgate Ave",
+    address2: "#222",
+    user: "jimmychen.xin@gmail.com",
+    city: "Daly City",
+    zipcode: "94121",
+  },
+];
+
+const orders = [
+  {
+    name: "Jasmine Green Tea",
+    number: "2",
+  }
+]
+
 async function seed(){
   try{
 
@@ -174,6 +205,23 @@ async function seed(){
     let userCreate = await db.User.create(users);
     log(`Created ${userCreate.length} users.`);
 
+    // Delete all addresses and seed
+    console.log("Seeding addresses...");
+    let addressDelete = await db.Address.deleteMany();
+    log(`Deleted ${addressDelete.n} addresses.`)
+    let addressCount = 0;
+    for (let address of addresses){
+      // Get id of the named user
+      let user = await db.User.findOne({
+        email: address.user
+      });
+      address.user = user._id;
+
+      let newAddress = await db.Address.create(address);
+      addressCount++;
+    }
+    log(`Created ${addressCount} addresses.`)
+    console.log("Seed complete. See seed.log for details.");
   }
   catch(err){
       log(err);

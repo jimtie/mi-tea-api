@@ -4,4 +4,5 @@ module.exports = {
     // posts: require('./posts'),
     teas: require('./teas'),
     machine: require('./machine'),
+    addresses: require('./addresses'),
 };

@@ -4,4 +4,5 @@ module.exports = {
   machine: require('./machine'),
   // orders: require('./orders'),
   users: require('./users'),
+  addresses: require('./addresses'),
 }

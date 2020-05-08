@@ -38,14 +38,8 @@ function clientUser(user){
     firstName: user.firstName,
     lastName: user.lastName,
     email: user.email,
-    posts: user.post,
-  }
-
-  if (user.city){
-    clientUser.city = {
-      id: user.city._id,
-      name: user.city.name,
-    }
+    address: user.address,
+    creditCard: user.creditCard,
   }
 
   return clientUser;
