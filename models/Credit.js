@@ -13,7 +13,7 @@ const CreditSchema = mongoose.Schema({
     ref: 'User'
   },
   expiration: {
-    type: Date,
+    type: String,
   },
   cvv: {
     type: String,
