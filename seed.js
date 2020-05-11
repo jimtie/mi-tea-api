@@ -83,7 +83,295 @@ const teas = [
         }
       },
     }
-  }
+  },
+  {
+    name: "Earl Grey Bella Luna",
+    type: "Black Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/earl_grey_bella_luna.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/earl_grey_bella_luna.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Summer Rose",
+    type: "Flavored Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/summer_rose.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/summer_rose.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Masala Chai",
+    type: "Chai Tea",
+    price: 15.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/masala_chai.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/masala_chai.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Peach Oolong",
+    type: "Oolong Tea",
+    price: 17.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/peach_oolong.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/peach_oolong.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "White Eternal Spring",
+    type: "Black Tea",
+    price: 19.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/white_eternal_spring.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/white_eternal_spring.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Peach",
+    type: "Flavored Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/peach-tea.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/peach-tea.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Chocolate Truffle",
+    type: "Flavored Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/chocolate_truffle.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/chocolate_truffle.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Tangerine Tuxedo",
+    type: "Black Tea",
+    price: 71.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/tangerine_tuxedo.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/tangerine_tuxedo.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Raspberry",
+    type: "Flavored Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/raspberry.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/raspberry.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Passionfruit",
+    type: "Flavored Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/passionfruit.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/passionfruit.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Cherry",
+    type: "Flavored Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/cherry.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/cherry.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
+  {
+    name: "Candy Apple",
+    type: "Flavored Tea",
+    price: 12.00,
+    description: "Top class LongJing Green Tea blended with Jasmine flower, strong refreshing scent.",
+    images: {
+      icon: {
+        src: "https://www.adagio.com/images5/products_index/candy_apple.jpg",
+        credit: {
+          name: "Claudia Larusso",
+          url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+      header: {
+        src: "https://www.adagio.com/images5/products/candy_apple.jpg",
+        credit: {
+          name: "Jared Erondu",
+          url: "https://unsplash.com/@erondu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+          site: "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+      },
+    }
+  },
 ];
 
 const machines = [
@@ -94,7 +382,7 @@ const machines = [
     description: "Enjoy your tea for infinity flavors!",
     images: {
       icon: {
-        src: "https://www.williams-sonoma.com/wsimgs/rk/images/dp/wcm/202012/0069/breville-one-touch-tea-maker-c.jpg",
+        src: "https://images.benchmarkemail.com/client1213469/image8627465.jpeg",
         credit: {
           name: "Claudia Larusso",
           url: "https://unsplash.com/@claudialorux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
